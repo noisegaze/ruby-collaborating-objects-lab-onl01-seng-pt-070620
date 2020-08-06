@@ -10,7 +10,7 @@ class MP3Importer
   
   def files 
     files = []
-    
+    Dir.new(self.path)
   end   
   
   
