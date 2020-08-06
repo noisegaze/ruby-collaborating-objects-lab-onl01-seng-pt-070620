@@ -17,7 +17,9 @@ class MP3Importer
   end   
   
   def import
-    
+    self.files.each do |file_name| 
+      
+    end
   end
   
 end  
